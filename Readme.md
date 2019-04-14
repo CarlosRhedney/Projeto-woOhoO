@@ -1,2 +1,1 @@
-# Meu Git
-"Olá ainda estou aprendendo a utilizar o git..."
+# Olá Seja bem vindo!
