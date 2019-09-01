@@ -16,4 +16,3 @@
 ![postagens-php](https://user-images.githubusercontent.com/49602892/64081791-1ba23f00-ccdc-11e9-9e5e-76ebf927755b.png)
 
 # Procurar Pessoas
-![procurar-pessoas-php](https://user-images.githubusercontent.com/49602892/64081798-468c9300-ccdc-11e9-88ca-439e97dfb3c0.png)
