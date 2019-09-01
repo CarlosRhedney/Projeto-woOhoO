@@ -15,171 +15,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script src="jquery-2.2.1.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function(){
-        $("#botao_post").click(function(){
-          if($("#texto_post").val().length > 0){
-            $.ajax({
-              url: "inclui_post.php",
-              method: "post",
-              data: $("#form_texto_post").serialize(),
-              success: function(data){
-                $("#texto_post").val("");
-                atualizaPost();
-              }
-            });
-          }
-        });
-
-        function atualizaPost(){
-          $.ajax({
-            url: "get_post.php",
-            success: function(data){
-              $("#form_post").html(data);
-              $(".btn_curtir").click(function(){
-                var vot_fim = this.id;
-                pontuacao(+1); var id_usuario = $(this).data("id_usuario");
-                $("#curte_").hide();
-                $("#nao_curte_").show();
-                $.ajax({
-                  success: function(data){
-                  }
-                });
-                function pontuacao(acao){
-                    var like = document.getElementById("like").innerHTML;
-                    like = parseInt(like);
-                    like = like + acao;
-                    document.getElementById("like").innerHTML = like;
-                }
-              });
-              $(".btn_deixar_curtir").click(function(){
-                var vot_fim = this.id;
-                pontuacao(+1);
-                $("#curte_").show();
-                $("#nao_curte_").hide();
-                $.ajax({
-                  success: function(data){
-                  }
-                });
-                function pontuacao(acao){
-                    var like = document.getElementById("like").innerHTML;
-                    like = parseInt(like);
-                    like = like - acao;
-                    document.getElementById("like").innerHTML = like;
-                }
-              });
-              $(".btn_nao_cutiu_").click(function(){
-                var vot_fim = this.id;
-                pontuacao(+1); var id_usuario = $(this).data("id_usuario");
-                $("#nao_cur_").hide();
-                $("#deixar_nao_curte_").show();
-                $.ajax({
-                  success: function(data){
-                  }
-                });
-                function pontuacao(acao){
-                    var deslike = document.getElementById("deslike").innerHTML;
-                    deslike = parseInt(deslike);
-                    deslike = deslike + acao;
-                    document.getElementById("deslike").innerHTML = deslike;
-                }
-              });
-              $(".btn_deixar_nao_curtir_").click(function(){
-                var vot_fim = this.id;
-                pontuacao(+1);
-                $("#nao_cur_").show();
-                $("#deixar_nao_curte_").hide();
-                $.ajax({
-                  success: function(data){
-                  }
-                });
-                function pontuacao(acao){
-                    var deslike = document.getElementById("deslike").innerHTML;
-                    deslike = parseInt(deslike);
-                    deslike = deslike - acao;
-                    document.getElementById("deslike").innerHTML = deslike;
-                }
-              });
-              $(".btn_favorito_").click(function(){
-                var vot_fim = this.id;
-                pontuacao(+1); var id_usuario = $(this).data("id_usuario");
-                $("#favorito_").hide();
-                $("#deixar_favorito_").show();
-                $.ajax({
-                  success: function(data){
-                  }
-                });
-                function pontuacao(acao){
-                    var favorito = document.getElementById("favorito").innerHTML;
-                    favorito = parseInt(favorito);
-                    favorito = favorito + acao;
-                    document.getElementById("favorito").innerHTML = favorito;
-                }
-              });
-              $(".btn_deixar_favorito_").click(function(){
-                var vot_fim = this.id;
-                pontuacao(+1);
-                $("#favorito_").show();
-                $("#deixar_favorito_").hide();
-                $.ajax({
-                  success: function(data){
-                  }
-                });
-                function pontuacao(acao){
-                    var favorito = document.getElementById("favorito").innerHTML;
-                    favorito = parseInt(favorito);
-                    favorito = favorito - acao;
-                    document.getElementById("favorito").innerHTML = favorito;
-                }
-              });
-              $(".btn_amei_").click(function(){
-                var vot_fim = this.id;
-                pontuacao(+1); var id_usuario = $(this).data("id_usuario");
-                $("#amei_").hide();
-                $("#deixar_amei_").show();
-                $.ajax({
-                  success: function(data){
-                  }
-                });
-                function pontuacao(acao){
-                    var teamo = document.getElementById("teamo").innerHTML;
-                    teamo = parseInt(teamo);
-                    teamo = teamo + acao;
-                    document.getElementById("teamo").innerHTML = teamo;
-                }
-              });
-              $(".btn_deixar_amei_").click(function(){
-                var vot_fim = this.id;
-                pontuacao(+1);
-                $("#amei_").show();
-                $("#deixar_amei_").hide();
-                $.ajax({
-                  success: function(data){
-                  }
-                });
-                function pontuacao(acao){
-                    var teamo = document.getElementById("teamo").innerHTML;
-                    teamo = parseInt(teamo);
-                    teamo = teamo - acao;
-                    document.getElementById("teamo").innerHTML = teamo;
-                }
-              });
-              $("#coment").click(function(){
-                $("#coment").hide();
-                $("#form_texto_comentario").show();
-                $("#btn_comentar").click(function(){
-                  if($("#texto_comentar").val().length > 0){
-                    alert($("#texto_comentar").val());
-                    $("#texto_comentar").val("");
-                  }
-                });
-              });
-            }
-          });
-        }
-        atualizaPost();
-      });
-    </script>
+    <script src="arquivo2.js"></script>
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Bootstrap -->
@@ -202,11 +38,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <h4 class="navbar-brand"><span style="font-family: 'Shadows Into Light', cursive; color:#9400D3; font-size:40px;">woOhoO!</span></h4>
-          <a href="home.php"><span class="glyphicon glyphicon-home navbar-brand" style="margin-left:20px; color:#00FF7F; padding-top:30px;"></span>
+          <h4 class="navbar-brand"><span style="margin-left:-5px; font-family: 'Shadows Into Light', cursive; color:#9400D3; font-size:40px;">woOhoO!</span></h4>
+          <a href="home.php"><span class="glyphicon glyphicon-home navbar-brand" style="margin-left:-20px; color:#00FF7F; padding-top:30px;"></span>
           </a>
           <a href="postagens.php"><span class="glyphicon glyphicon-bell navbar-brand" style="color:#00FF7F; padding-top:30px;"></span></a>
           <a href="procurar_pessoas.php"><span class="glyphicon glyphicon-user navbar-brand" style="color:#00FF7F;  padding-top:30px;"></span></a>
+          <a href="chat.php"><span class="glyphicon glyphicon-envelope navbar-brand" style="color:#00FF7F;  padding-top:30px;"></span></a>
         </div>
         <div class="collapse navbar-collapse" id="barra_nav">
           <ul class="nav navbar-nav navbar-right">
