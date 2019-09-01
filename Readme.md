@@ -16,3 +16,8 @@
 ![postagens-php](https://user-images.githubusercontent.com/49602892/64081791-1ba23f00-ccdc-11e9-9e5e-76ebf927755b.png)
 
 # Procurar Pessoas
+![procurar-pessoas-php](https://user-images.githubusercontent.com/49602892/64081907-c23b0f80-ccdd-11e9-985f-d7064b30203f.png)
+
+# Chat
+![chat-php](https://user-images.githubusercontent.com/49602892/64081942-19d97b00-ccde-11e9-830d-1e827a859276.png)
+
