@@ -1,4 +1,3 @@
 # Olá Seja bem vindo!
 "Rede Social woOhoO".
-![]( C:\Users\Carlos-pc\Desktop\meu-git\Projeto #woOhoO\img ) 
-<img src=" C:\Users\Carlos-pc\Desktop\meu-git\Projeto #woOhoO\img/index-php.png ">
+![index-php](https://user-images.githubusercontent.com/49602892/64081481-1216d800-ccd8-11e9-959e-d2efec11089b.png)
