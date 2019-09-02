@@ -1,7 +1,7 @@
 # Olá Seja bem vindo!
 # Online aos fins de semana.
 "Rede Social woOhoO".
-# <a href="http://woohooo.ddns.net:8088" target="_blanck">woOhoO</a>
+# <a href="http://woohooo.ddns.net:8088">woOhoO</a>
 # Index
 ![index-php](https://user-images.githubusercontent.com/49602892/64081481-1216d800-ccd8-11e9-959e-d2efec11089b.png)
 
