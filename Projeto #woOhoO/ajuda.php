@@ -53,13 +53,27 @@
           <div class="col-md-4">
           </div>
           <div class="col-md-4">
-            <strong>Como criar uma conta no WoOhoO:</strong>
-            <p>
-              Vá para Inscreva-se.<br />
-              Insira seu nome, email, senha, data de nascimento e sexo.<br />
-              Clique em Cadastrar.<br />
-              Pronto conta criada com sucesso!.
-            </p>
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+              <div class="panel panel-default">
+                <div class="panel-heading" style="background:#FF0000" role="tab" id="headingOne">
+                  <h4 class="panel-title" align="center">
+                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                     <span><strong>Como criar uma conta no WoOhoO:</strong></span>
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                  <div class="panel-body">
+                    <p>
+                      Vá para Inscreva-se.<br />
+                      Insira seu nome, email, senha, data de nascimento e sexo.<br />
+                      Clique em Cadastrar.<br />
+                      Pronto conta criada com sucesso!.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-md-4">
           </div>
@@ -74,15 +88,15 @@
           </div>
           <div style="display:inline-block;" class="col-xs-5">
             <ul style="padding-top:20px;">
-              <li><a href="#">Eventos</a></li>
-              <li><a href="#">Sobre</a></li>
+              <li><a href="eventos.php">Eventos</a></li>
+              <li><a href="sobre.php">Sobre</a></li>
               <li><a href="CarlosRhedney/index.php" target="_blanck">Desenvolvedor</a></li>
             </ul>
           </div>
           <div style="display:inline-block;" class="col-xs-5">
             <ul style="padding-top:20px;">
               <li><a href="termos.php">Termos</a></li>
-              <li><a href="#">Segurança da conta</a></li>
+              <li><a href="seguranca_conta.php">Segurança da conta</a></li>
               <li><a href="ajuda.php">Ajuda</a></li>
             </ul>
           </div>

@@ -110,15 +110,15 @@
           </div>
           <div style="display:inline-block;" class="col-xs-5">
             <ul style="padding-top:20px;">
-              <li><a href="#">Eventos</a></li>
-              <li><a href="#">Sobre</a></li>
+             <li><a href="eventos.php">Eventos</a></li>
+              <li><a href="sobre.php">Sobre</a></li>
               <li><a href="CarlosRhedney/index.php" target="_blanck">Desenvolvedor</a></li>
             </ul>
           </div>
           <div style="display:inline-block;" class="col-xs-5">
             <ul style="padding-top:20px;">
               <li><a href="termos.php">Termos</a></li>
-              <li><a href="#">Segurança da conta</a></li>
+              <li><a href="seguranca_conta.php">Segurança da conta</a></li>
               <li><a href="ajuda.php">Ajuda</a></li>
             </ul>
           </div>
