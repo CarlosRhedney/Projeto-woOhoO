@@ -25,4 +25,8 @@
 
 # Configuracoes
 ![screencapture-woohooo-ddns-net-8088-configuracoes-php-2019-10-05-22_38_13](https://user-images.githubusercontent.com/49602892/66262963-f6b05880-e7c0-11e9-864e-a4537a3ceadf.png)
+#
+![screencapture-woohooo-ddns-net-8088-configuracoes-php-2019-10-05-22_41_49](https://user-images.githubusercontent.com/49602892/66262986-79d1ae80-e7c1-11e9-8eff-067c5b172cbc.png)
+#
+![screencapture-woohooo-ddns-net-8088-configuracoes-php-2019-10-05-22_43_41](https://user-images.githubusercontent.com/49602892/66263001-b7363c00-e7c1-11e9-9ae9-363236e1a774.png)
 
