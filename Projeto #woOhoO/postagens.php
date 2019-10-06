@@ -47,6 +47,7 @@
         </div>
         <div class="collapse navbar-collapse" id="barra_nav">
           <ul class="nav navbar-nav navbar-right">
+            <li style="margin-top:10px;"><a href="configuracoes.php"><span class="glyphicon glyphicon-cog" style="color:#7c2;"></span></a></li>
             <li style="margin-top:10px;"><a href="logout.php"><span class="glyphicon glyphicon-off" style="color:#7c2;"></span></a></li>
           </ul>
         </div>
