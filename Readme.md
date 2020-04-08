@@ -13,7 +13,7 @@
 ![home](https://user-images.githubusercontent.com/49602892/78842246-e37f7f00-79d5-11ea-8a5d-ba91eb72fd00.png)
 
 # Postagens
-![postagens-php](https://user-images.githubusercontent.com/49602892/64081791-1ba23f00-ccdc-11e9-9e5e-76ebf927755b.png)
+![postagens](https://user-images.githubusercontent.com/49602892/78842377-2fcabf00-79d6-11ea-9b13-d36e363cc924.png)
 
 # Procurar Pessoas
 ![procurar](https://user-images.githubusercontent.com/49602892/78841908-fcd3fb80-79d4-11ea-8f35-78c661af739b.png)
