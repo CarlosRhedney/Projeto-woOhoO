@@ -21,12 +21,12 @@
 # Chat
 ![chat](https://user-images.githubusercontent.com/49602892/78842943-c77cdd00-79d7-11ea-85c6-63ffb19fd8dc.png)
 #
-![screencapture-woohooo-ddns-net-8088-conversas-php-2019-10-05-22_21_48](https://user-images.githubusercontent.com/49602892/66262936-55290700-e7c0-11e9-9c33-392d11ce6b72.png)
+![conversas](https://user-images.githubusercontent.com/49602892/78843299-cf894c80-79d8-11ea-9ab8-71619e00132a.png)
 
 # Configuracoes
 ![configuracoes](https://user-images.githubusercontent.com/49602892/78842964-dc597080-79d7-11ea-910d-5ca035741b78.png)
 #
-![screencapture-woohooo-ddns-net-8088-configuracoes-php-2019-10-05-22_41_49](https://user-images.githubusercontent.com/49602892/66262986-79d1ae80-e7c1-11e9-8eff-067c5b172cbc.png)
+![configuracoes2](https://user-images.githubusercontent.com/49602892/78843395-124b2480-79d9-11ea-9819-35478dfa3b18.png)
 #
 ![screencapture-woohooo-ddns-net-8088-configuracoes-php-2019-10-05-22_43_41](https://user-images.githubusercontent.com/49602892/66263001-b7363c00-e7c1-11e9-9ae9-363236e1a774.png)
 
