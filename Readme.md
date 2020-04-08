@@ -10,13 +10,13 @@
 ![inscreva-se-php](https://user-images.githubusercontent.com/49602892/64081713-1db7ce00-ccdb-11e9-8ad4-0024fd769546.png)
 
 # Home
-![home-php](https://user-images.githubusercontent.com/49602892/64081769-d1b95900-ccdb-11e9-87fa-88329fd4a566.png)
+![home](https://user-images.githubusercontent.com/49602892/78842246-e37f7f00-79d5-11ea-8a5d-ba91eb72fd00.png)
 
 # Postagens
 ![postagens-php](https://user-images.githubusercontent.com/49602892/64081791-1ba23f00-ccdc-11e9-9e5e-76ebf927755b.png)
 
 # Procurar Pessoas
-![procurar-pessoas-php](https://user-images.githubusercontent.com/49602892/64081907-c23b0f80-ccdd-11e9-985f-d7064b30203f.png)
+![procurar](https://user-images.githubusercontent.com/49602892/78841908-fcd3fb80-79d4-11ea-8f35-78c661af739b.png)
 
 # Chat
 ![chat-php](https://user-images.githubusercontent.com/49602892/64081942-19d97b00-ccde-11e9-830d-1e827a859276.png)
