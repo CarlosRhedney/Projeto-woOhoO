@@ -28,5 +28,5 @@
 #
 ![configuracoes2](https://user-images.githubusercontent.com/49602892/78843395-124b2480-79d9-11ea-9819-35478dfa3b18.png)
 #
-![screencapture-woohooo-ddns-net-8088-configuracoes-php-2019-10-05-22_43_41](https://user-images.githubusercontent.com/49602892/66263001-b7363c00-e7c1-11e9-9ae9-363236e1a774.png)
+![configuracoes3](https://user-images.githubusercontent.com/49602892/78843598-a5845a00-79d9-11ea-8bd3-bdf7b7d32cda.png)
 
