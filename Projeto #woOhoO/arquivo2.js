@@ -9,6 +9,7 @@ $(document).ready(function(){
               success: function(data){
                 $("#texto_post").val("");
                 atualizaPost();
+                atualizaPostImagem();
               }
             });
           }

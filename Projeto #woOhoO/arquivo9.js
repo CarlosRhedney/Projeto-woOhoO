@@ -1,0 +1,12 @@
+function atualizaPostImagem(){
+  $.ajax({
+    url: "get_imagem_home.php",
+    success: function(data){
+      $("#post_imagem").html(data);
+      $("#imgs").click(function(){
+        $("#imag").html(data);
+      });
+    }
+  });
+}
+atualizaPostImagem();
