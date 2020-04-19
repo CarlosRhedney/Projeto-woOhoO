@@ -20,7 +20,8 @@
 
 # Chat
 ![chat](https://user-images.githubusercontent.com/49602892/78842943-c77cdd00-79d7-11ea-85c6-63ffb19fd8dc.png)
-#
+
+# Conversas
 ![conversas](https://user-images.githubusercontent.com/49602892/78843299-cf894c80-79d8-11ea-9ab8-71619e00132a.png)
 
 # Configuracoes
