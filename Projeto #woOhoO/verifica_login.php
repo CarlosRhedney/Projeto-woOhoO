@@ -13,7 +13,7 @@ if($result_id){
 		$_SESSION["id_usuario"] = $dados_usuario["id"];
 		$_SESSION["usuario"] = $dados_usuario["usuario"];
 		$_SESSION["email"] = $dados_usuario["email"];
-		$_SESSION["data_nasc"] = $dados_usuario["data_nasc"];
+		$_SESSION["senha"] = $dados_usuario["senha"];
 		header("Location: home.php");
 	}else{
 		header("Location: index.php?erro=1");
