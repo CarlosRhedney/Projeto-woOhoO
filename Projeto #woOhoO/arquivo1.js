@@ -27,6 +27,17 @@ $(document).ready(function(){
             url: "get_post_home.php",
             success: function(data){
               $("#form_post").html(data);
+              $(".btn_del").click(function(){
+                let id_post = $(this).data("id_post");
+                $.ajax({
+                  url: "delete_post.php",
+                  method: "post",
+                  data: {delete_post: id_post},
+                  success: function(data){
+                    alert("Postagem Deletada!");
+                  }
+                });
+              });
               $(".btn_curtir").click(function(){
                 let vot_fim = this.id;
                 pontuacao(+1); let id_usuario = $(this).data("id_usuario");
