@@ -11,6 +11,6 @@ if($id_usuario == "" || $delete_post == ""){
 }
 $objdb = new db();
 $conexao = $objdb->conecta_mysql();
-$sql = " DELETE FROM posts WHERE id_usuario = $id_usuario AND id_post = $delete_post ";
+$sql = " DELETE FROM post WHERE id_usuario = $id_usuario AND id_post = $delete_post ";
 mysqli_query($conexao, $sql);
 ?>
