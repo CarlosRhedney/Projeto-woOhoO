@@ -1,0 +1,70 @@
+CREATE DATABASE woohoo;
+CREATE TABLE tb_usuarios(
+    id int not null PRIMARY KEY AUTO_INCREMENT,
+    usuario varchar(100) not null,
+    email varchar(100) not null,
+    senha varchar(32) not null,
+    data_nasc date not null,
+    sexo char(1) not null
+);
+CREATE TABLE post(
+    id_post int not null PRIMARY KEY AUTO_INCREMENT,
+    id_usuario int not null,
+    post text not null,
+    data_inclusao datetime DEFAULT CURRENT_TIMESTAMP
+);
+CREATE TABLE usuarios_seguidores(
+    id_usuario_seguidor int not null PRIMARY KEY AUTO_INCREMENT,
+    id_usuario int not null,
+    seguindo_id_usuario text not null,
+    data_registro datetime DEFAULT CURRENT_TIMESTAMP
+);
+CREATE TABLE imagem_post(
+    id_imagem int not null PRIMARY KEY AUTO_INCREMENT,
+    id_usuario int not null,
+    nome varchar(100) not null,
+    img blob not null,
+    data_inclusao datetime DEFAULT CURRENT_TIMESTAMP
+);
+CREATE TABLE imagens(
+    id_imagem int not null PRIMARY KEY AUTO_INCREMENT,
+    id_usuario int not null,
+    nome varchar(100) not null,
+    img blob not null
+);
+CREATE TABLE conversas(
+    id_conversa int not null PRIMARY KEY AUTO_INCREMENT,
+    id_usuario int not null,
+    conversa text not null,
+    data_conversa datetime DEFAULT CURRENT_TIMESTAMP
+);
+CREATE TABLE curtidas(
+    id_reacoes int not null PRIMARY KEY AUTO_INCREMENT,
+    id_usuario int not null,
+    curtindo_id_usuario int not null,
+    data_registro datetime DEFAULT CURRENT_TIMESTAMP
+);
+CREATE TABLE naocurtidas(
+    id_nao_curtidas int not null PRIMARY KEY AUTO_INCREMENT,
+    id_usuario int not null,
+    nao_curtindo_id_usuario int not null,
+    data_registro datetime DEFAULT CURRENT_TIMESTAMP
+);
+CREATE TABLE favorito(
+    id_favorito int not null PRIMARY KEY AUTO_INCREMENT,
+    id_usuario int not null,
+    favorito_id_usuario int not null,
+    data_registro datetime DEFAULT CURRENT_TIMESTAMP
+);
+CREATE TABLE amei(
+    id_amei int not null PRIMARY KEY AUTO_INCREMENT,
+    id_usuario int not null,
+    amei_id_usuario int not null,
+    data_registro datetime DEFAULT CURRENT_TIMESTAMP
+);
+CREATE TABLE comentarios(
+    id_comentario int not null PRIMARY KEY AUTO_INCREMENT,
+    id_usuario int not null,
+    comentario text not null,
+    data_comentario datetime DEFAULT CURRENT_TIMESTAMP
+);
