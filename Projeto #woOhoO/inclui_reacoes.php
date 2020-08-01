@@ -11,6 +11,6 @@ $conexao = $con->conecta_mysql();
 if($id_usuario == "" || $curtindo_id_usuario == ""){
 	die();
 }
-$sql = " INSERT INTO reacoes(id_usuario, curtindo_id_usuario) values($id_usuario, $curtindo_id_usuario) ";
+$sql = " INSERT INTO curtidas(id_usuario, curtindo_id_usuario) values($id_usuario, $curtindo_id_usuario) ";
 mysqli_query($conexao, $sql);
 ?>

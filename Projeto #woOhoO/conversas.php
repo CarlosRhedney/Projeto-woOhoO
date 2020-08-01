@@ -1,9 +1,4 @@
-<?php
-  session_start();
-  if(!isset($_SESSION["usuario"])){
-    header("Location: index.php?erro=1");
-  }
-?>
+<?php include("script_botoes_perfil.php") ?>
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>

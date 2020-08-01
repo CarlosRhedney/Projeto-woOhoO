@@ -8,12 +8,12 @@ $id_usuario = $_SESSION["id_usuario"];
 $nome_pessoa = $_POST["nome_pessoa"];
 $con = new db();
 $conexao = $con->conecta_mysql();
-$sql = " SELECT us.*, t.* FROM tb_usuarios AS t LEFT JOIN usuarios_seguidores AS us ON (us.id_usuario = $id_usuario AND t.id = us.seguindo_id_usuario) WHERE t.usuario like '%$nome_pessoa%' AND t.id <> $id_usuario ";
+$sql = " SELECT us.*, i.*, t.* FROM tb_usuarios AS t LEFT JOIN usuarios_seguidores AS us ON (us.id_usuario = $id_usuario AND t.id = us.seguindo_id_usuario) LEFT JOIN imagens AS i ON (t.id = i.id_usuario) WHERE t.usuario like '%$nome_pessoa%' AND t.id <> $id_usuario ";
 $resultado_id = mysqli_query($conexao, $sql);
 if($resultado_id){
 	while($registro = mysqli_fetch_array($resultado_id, MYSQLI_ASSOC)){
 		echo '<a href="#" class="list-group-item">';
-                echo '<strong>'.$registro['usuario'].'</strong> <small> - '.$registro['email'].'</small>';
+                echo "<img src='img/img_perfil/".$registro["usuario"]."/".$registro["nome"]."' class='img-rounded' style='width:30px'/> <strong>".$registro['usuario']."</strong> <small> - ".$registro['email']."</small>";
                 echo '<p class="list-group-item-text pull-right">';
                 		$seguindo_sn = isset($registro['id_usuario_seguidor']) && !empty($registro['id_usuario_seguidor']) ? 'S' : 'N';
                 		$seguindo = 'block';

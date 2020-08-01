@@ -7,7 +7,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <h4 class="navbar-brand"><span style="font-family: 'Shadows Into Light', cursive; font-size:40px; color:#9400D3">woOhoO!</span></h4>
+      <h4 class="navbar-brand"><span style="font-family: 'Shadows Into Light', cursive; font-size:40px; color:gold">woOhoO!</span></h4>
     </div>
     <div class="collapse navbar-collapse" id="barra_nav">
       <ul class="nav navbar-nav navbar-right">

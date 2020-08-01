@@ -7,12 +7,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <h4 class="navbar-brand"><span style="font-family: 'Shadows Into Light', cursive; color:#9400D3; font-size:40px;">woOhoO!</span></h4>
+        <h4 class="navbar-brand"><span style="font-family: 'Shadows Into Light', cursive; color:gold; font-size:40px;">w!</span></h4>
         <a href="home.php"><span class="glyphicon glyphicon-home navbar-brand" style="margin-left:-25px; color:#00FF7F; padding-top:30px;"></span>
         </a>
         <a href="postagens.php"><span class="glyphicon glyphicon-bell navbar-brand" style="color:#00FF7F; padding-top:30px;"></span></a>
         <a href="procurar_pessoas.php"><span class="glyphicon glyphicon-user navbar-brand" style="color:#00FF7F;  padding-top:30px;"></span></a>
-        <a href="chat.php"><span class="glyphicon glyphicon-envelope navbar-brand" style="color:#00FF7F;  padding-top:30px;"></span></a>
+        <a href="chat.php"><span class="glyphicon glyphicon-comment navbar-brand" style="color:#00FF7F;  padding-top:30px;"></span></a>
     </div>
     <div class="collapse navbar-collapse" id="barra_nav">
       <ul class="nav navbar-nav navbar-right">

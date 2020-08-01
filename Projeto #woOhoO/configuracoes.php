@@ -1,9 +1,4 @@
-<?php
-  session_start();
-  if(!isset($_SESSION["usuario"])){
-    header("Location: index.php?erro=1");
-  }
-?>
+<?php include("script_botoes_perfil.php") ?>
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
@@ -21,6 +16,9 @@
     <!-- Article contem a imagem do perfil com usuario e email, botoes curtiu, nao curtiu etc... -->
     <?php include("article_configuracoes.php"); ?>
     <!-- Fim Article -->
+    <!-- Modal contem as imagens postadas ou do perfil quando clicadas -->
+    <?php include("modal_imagens.php"); ?>
+    <!-- Fim modal -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->

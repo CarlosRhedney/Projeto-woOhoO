@@ -1,4 +1,4 @@
-<div class="modal fade" id="modal">
+<div class="modal fade" id="modal3">
   <div class="modal-dialog">
     <div style="background-color:#E0FFFF;" class="modal-content">
       <div class="modal-header">

@@ -1,9 +1,4 @@
-<?php
-  session_start();
-  if(!isset($_SESSION["usuario"])){
-    header("Location: index.php?erro=1");
-  }
-?>
+<?php include("script_botoes_perfil.php") ?>
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
@@ -11,7 +6,7 @@
     <?php include("cabecalho_home.php"); ?>
     <!-- Fim Cabecalho -->
   </head>
-  <body style="background:#F5DEB3;">
+  <body style="background:#F5DEB3; overflow-y:hidden">
     <!-- Navegaçao contem os liks de navegaçao, botao e etc -->
     <?php include("navegacao_home.php"); ?>
     <!-- Fim Navegaçao -->

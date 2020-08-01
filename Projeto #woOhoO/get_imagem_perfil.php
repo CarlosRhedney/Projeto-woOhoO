@@ -23,7 +23,7 @@ if($resultado_id){
 		// Criado especificamente para guardar a imagem de perfil dos usuarios
 		// Aqui concatenei o ".$usuario." para acessar uma pasta criada no insere_img, a qual faz referencia a pasta de imagens de cada usuario,
 		// com o nome dos usuarios que guarda as imagens deles
-		echo "<p class='list-group-item-text'><img src='http://192.168.1.100:8088/img/img_perfil/".$usuario."/".$registro["nome"]."' class='img-rounded img-responsive' id='imgs2' style='width:200px'/></p>";
+		echo "<p class='list-group-item-text'><img src='img/img_perfil/".$usuario."/".$registro["nome"]."' class='img-rounded img-responsive' id='imgs2' data-toggle='modal' data-target='#modal' style='width:200px'/></p>";
 		echo "</a>";
     }
 }

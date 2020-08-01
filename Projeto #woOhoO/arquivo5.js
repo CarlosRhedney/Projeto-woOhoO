@@ -159,15 +159,6 @@ function atualizaPost(){
           document.getElementById("teamo").innerHTML = teamo;
         }
       });
-      $("#coment").click(function(){
-        $("#form_texto_comentario").show();
-        $("#btn_comentar").click(function(){
-          if($("#texto_comentar").val().length > 0){
-            alert($("#texto_comentar").val());
-            $("#texto_comentar").val("");
-          }
-        });
-      });
     }
   });
 }
