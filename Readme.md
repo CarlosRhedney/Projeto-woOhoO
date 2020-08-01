@@ -29,4 +29,4 @@
 #
 ![configuracoes2](https://user-images.githubusercontent.com/49602892/78843395-124b2480-79d9-11ea-9819-35478dfa3b18.png)
 #
-![configuracoes3](https://user-images.githubusercontent.com/49602892/78843598-a5845a00-79d9-11ea-8bd3-bdf7b7d32cda.png)
+![configuracoes3](https://user-images.githubusercontent.com/49602892/78843598-a5845a00-79d9-11ea-8bd3-bdf7b7d32cda.png).
