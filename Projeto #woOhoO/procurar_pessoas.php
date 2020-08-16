@@ -10,6 +10,7 @@
     <!-- Navegaçao contem os liks de navegaçao, botao e etc -->
     <?php include("navegacao_procurar_pessoas.php"); ?>
     <!-- Fim Navegaçao -->
+    <?php include("modal_perfil.php"); ?>
     <!-- Article contem o formulario de inserçao de imagem do perfil com usuario e email, formulario de procura por pessoas, botoes curtiu, nao curtiu etc... -->
     <?php include("article_procurar_pessoas.php"); ?>
     <!-- Fim Article -->

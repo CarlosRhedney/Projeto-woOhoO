@@ -36,6 +36,14 @@ $(document).ready(function(){
               }
             });
           });
+          $(".perfil").click(function(){
+            let usuario = $(this).data("usuario");
+            let email = $(this).data("email");
+            let id_usuario = $(this).data("id_usuario");
+            document.getElementById("usuario_perfil").value = usuario;
+            document.getElementById("email_perfil").value = email;
+            document.getElementById("id_perfil").value = id_usuario;
+          });
         }
       });
     }

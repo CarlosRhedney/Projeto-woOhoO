@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  alert("Olá seja bem vindo, nesta página aparecerá todas as suas postagens!");
+  alert("Olá seja bem vindo, nesta página aparecerão todas as suas postagens!");
   $("#botao_post").click(function(){
     if($("#texto_post").val().length > 0){
       $.ajax({
@@ -103,7 +103,7 @@ $(document).ready(function(){
             document.getElementById("deslike").innerHTML = deslike;
           }
         });
-        $(".btn_favorito_").click(function(){
+        $(".btn_favorito").click(function(){
           let vot_fim = this.id;
           pontuacao(+1); let id_usuario = $(this).data("id_usuario");
           $("#favorito_").hide();
@@ -119,7 +119,7 @@ $(document).ready(function(){
             document.getElementById("favorito").innerHTML = favorito;
           }
         });
-        $(".btn_deixar_favorito_").click(function(){
+        $(".btn_deixar_favorito").click(function(){
           let vot_fim = this.id;
           pontuacao(+1);
           $("#favorito_").show();
@@ -135,7 +135,7 @@ $(document).ready(function(){
             document.getElementById("favorito").innerHTML = favorito;
           }
         });
-        $(".btn_amei_").click(function(){
+        $(".btn_amei").click(function(){
           let vot_fim = this.id;
           pontuacao(+1); let id_usuario = $(this).data("id_usuario");
           $("#amei_").hide();
@@ -151,7 +151,7 @@ $(document).ready(function(){
             document.getElementById("teamo").innerHTML = teamo;
           }
         });
-        $(".btn_deixar_amei_").click(function(){
+        $(".btn_deixar_amei").click(function(){
           let vot_fim = this.id;
           pontuacao(+1);
           $("#amei_").show();

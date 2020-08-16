@@ -2,6 +2,7 @@
 <meta charset="UTF-8" />
 <link rel="icon" type="icon" href="img/woohoo.png" />
 <link rel="stylesheet" type="text/css" href="estilo.css" />
+<link rel="stylesheet" media="screen" href="estilo.css" />
 <link href="https://fonts.googleapis.com/css?family=Lovers+Quarrel" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">

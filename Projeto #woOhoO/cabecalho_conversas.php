@@ -9,7 +9,87 @@
 <script src="arquivo4.js"></script>
 <script src="arquivo7.js"></script>
 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
+<style type="text/css">
+@media screen and (max-width: 767px){}
+@media screen and (min-width: 768px){
+	#curte_{
+		margin-left: 0px;
+	}
+	#nao_curte_{
+		margin-left: 0px;
+	}
+	#nao_cur_{
+		margin-left: -20px;
+	}
+	#deixar_nao_curte_{
+		margin-left: -20px;
+	}
+	#favorito_{
+		margin-left: 15px;
+	}
+	#deixar_favorito_{
+		margin-left: 15px;
+	}
+	#amei_{
+		margin-left: -15px;
+	}
+	#deixar_amei_{
+		margin-left: -15px;
+	}
+}
+@media screen and (min-width: 992px){
+	#curte_{
+		margin-left: 0px;
+	}
+	#nao_curte_{
+		margin-left: 0px;
+	}
+	#nao_cur_{
+		margin-left: -15px;
+	}
+	#deixar_nao_curte_{
+		margin-left: -15px;
+	}
+	#favorito_{
+		margin-left: 15px;
+	}
+	#deixar_favorito_{
+		margin-left: 15px;
+	}
+	#amei_{
+		margin-left: -15px;
+	}
+	#deixar_amei_{
+		margin-left: -15px;
+	}
+}
+@media screen and (min-width: 1200px){
+	#curte_{
+		margin-left: 0px;
+	}
+	#nao_curte_{
+		margin-left: 0px;
+	}
+	#nao_cur_{
+		margin-left: -15px;
+	}
+	#deixar_nao_curte_{
+		margin-left: -15px;
+	}
+	#favorito_{
+		margin-left: 15px;
+	}
+	#deixar_favorito_{
+		margin-left: 15px;
+	}
+	#amei_{
+		margin-left: -15px;
+	}
+	#deixar_amei_{
+		margin-left: -15px;
+	}
+}
+</style>
 <!-- Bootstrap -->
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 

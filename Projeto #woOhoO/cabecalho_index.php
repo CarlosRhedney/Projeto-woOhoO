@@ -2,6 +2,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="icon" href="img/woohoo.png" />
     <link rel="stylesheet" type="text/css" href="estilo.css" />
+    <link rel="stylesheet" media="screen" href="estilo.css" />
     <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet" />
@@ -11,6 +12,9 @@
 
     <!-- Bootstrap -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+    
+    </style>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

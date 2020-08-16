@@ -1,5 +1,5 @@
 <div class="footer" style="background:#000; margin-top:50px; height:140px;">
-  <div class="container">
+  <div class="container"  id="footer">
     <div class="row">
       <div style="display:inline-block;" class="col-xs-2">
         <h3><span style="font-family: 'Shadows Into Light', cursive; color:gold">woOhoO!</span></h3>

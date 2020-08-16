@@ -13,7 +13,7 @@ $resultado_id = mysqli_query($conexao, $sql);
 if($resultado_id){
 	while($registro = mysqli_fetch_array($resultado_id, MYSQLI_ASSOC)){
 		echo '<a href="#" class="list-group-item">';
-                echo "<img src='img/img_perfil/".$registro["usuario"]."/".$registro["nome"]."' class='img-rounded' style='width:30px'/> <strong>".$registro['usuario']."</strong> <small> - ".$registro['email']."</small>";
+                echo "<img src='img/img_perfil/".$registro["usuario"]."/".$registro["nome"]."' class='img-rounded' style='width:30px'/> <strong class='perfil' data-toggle='modal' data-target='#modal' data-email='".$registro['email']."' data-usuario='".$registro['usuario']."' data-id_usuario='".$registro['id']."' >".$registro['usuario']."</strong> <small> - ".$registro['email']."</small>";
                 echo '<p class="list-group-item-text pull-right">';
                 		$seguindo_sn = isset($registro['id_usuario_seguidor']) && !empty($registro['id_usuario_seguidor']) ? 'S' : 'N';
                 		$seguindo = 'block';

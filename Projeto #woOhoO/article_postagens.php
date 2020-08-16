@@ -31,8 +31,8 @@
                 }else{
                   $curtindo = 'none';
                 }
-                echo "<button type='button' class='btn btn-default btn_curtir' id='curte_' style='display:".$curtindo."; margin-left:-20px'><span class='glyphicon glyphicon-thumbs-up'></span></button>";
-                echo "<button type='button' class='btn btn-primary btn_deixar_curtir' id='nao_curte_' style='display:".$nao_curtindo."; margin-left:-20px'><span class='glyphicon glyphicon-thumbs-up'></span></button>";
+                echo "<button type='button' class='btn btn-default' id='curte_' style='display:".$curtindo."; margin-left:-20px'><span class='glyphicon glyphicon-thumbs-up'></span></button>";
+                echo "<button type='button' class='btn btn-primary' id='nao_curte_' style='display:".$nao_curtindo."; margin-left:-20px'><span class='glyphicon glyphicon-thumbs-up'></span></button>";
                 echo '<br />';
                 echo '<span id="like">'.$qtde_curtidas.'</span>';
               ?>
@@ -53,8 +53,8 @@
                 }else{
                   $cur = 'none';
                 }
-                echo "<button type='button' class='btn btn-default btn_nao_curtiu' id='nao_cur_' style='display:".$cur.";'><span class='glyphicon glyphicon-thumbs-down'></span></button>";
-                echo "<button type='button' class='btn btn-info btn_deixar_nao_curtir' id='deixar_nao_curte_' style='display:".$nao_curte.";'><span class='glyphicon glyphicon-thumbs-down'></span></button>";
+                echo "<button type='button' class='btn btn-default' id='nao_cur_' style='display:".$cur.";'><span class='glyphicon glyphicon-thumbs-down'></span></button>";
+                echo "<button type='button' class='btn btn-info' id='deixar_nao_curte_' style='display:".$nao_curte.";'><span class='glyphicon glyphicon-thumbs-down'></span></button>";
                 echo "<br />";
                 echo "<span id='deslike'>".$qtde_nao_curtidas."</span>";
               ?>
@@ -75,8 +75,8 @@
                 }else{
                   $favorito = 'none';
                 }
-                echo "<button type='button' class='btn btn-default btn_favorito' id='favorito_' style='display:".$favorito."; margin-left:-20px'><span class='glyphicon glyphicon-star-empty'></span></button>";
-                echo "<button type='button' class='btn btn-warning btn_deixar_favorito' id='deixar_favorito_' style='display:".$nao_favorito."; margin-left:-20px'><span class='glyphicon glyphicon-star-empty'></span></button>";
+                echo "<button type='button' class='btn btn-default' id='favorito_' style='display:".$favorito."; margin-left:-20px'><span class='glyphicon glyphicon-star-empty'></span></button>";
+                echo "<button type='button' class='btn btn-warning' id='deixar_favorito_' style='display:".$nao_favorito."; margin-left:-20px'><span class='glyphicon glyphicon-star-empty'></span></button>";
                 echo "<br />";
                 echo "<span id='favorito'>".$qtde_favoritos."</span>";
               ?>
@@ -97,8 +97,8 @@
                 }else{
                   $amei = 'none';
                 }
-                echo "<button type='button' class='btn btn-default btn_amei' id='amei_' style='display:".$amei.";'><span class='glyphicon glyphicon-heart-empty'></span></button>";
-                echo "<button type='button' class='btn btn-danger btn_deixar_amei' id='deixar_amei_' style='display:".$nao_amei."'><span class='glyphicon glyphicon-heart-empty'></span></button>";
+                echo "<button type='button' class='btn btn-default' id='amei_' style='display:".$amei.";'><span class='glyphicon glyphicon-heart-empty'></span></button>";
+                echo "<button type='button' class='btn btn-danger' id='deixar_amei_' style='display:".$nao_amei."'><span class='glyphicon glyphicon-heart-empty'></span></button>";
                 echo "<br />";
                 echo "<span id='teamo'>".$qtde_amei."</span>";
               ?>

@@ -25,8 +25,8 @@
                 }else{
                   $curtindo = 'none';
                 }
-                echo "<button type='button' class='btn btn-default btn_curtir' id='curte_' style='display:".$curtindo."'><span class='glyphicon glyphicon-thumbs-up'></span></button>";
-                echo "<button type='button' class='btn btn-primary btn_deixar_curtir' id='nao_curte_' style='display:".$nao_curtindo."'><span class='glyphicon glyphicon-thumbs-up'></span></button>";
+                echo "<button type='button' class='btn btn-default' id='curte_' style='display:".$curtindo."'><span class='glyphicon glyphicon-thumbs-up'></span></button>";
+                echo "<button type='button' class='btn btn-primary' id='nao_curte_' style='display:".$nao_curtindo."'><span class='glyphicon glyphicon-thumbs-up'></span></button>";
                 echo "<br />";
                 echo "<span id='like'>".$qtde_curtidas."</span>";
               ?>
@@ -47,8 +47,8 @@
                 }else{
                   $cur = 'none';
                 }
-                echo "<button type='button' class='btn btn-default btn_nao_curtiu' id='nao_cur_' style='display:".$cur."'><span class='glyphicon glyphicon-thumbs-down'></span></button>";
-                echo "<button type='button' class='btn btn-info btn_deixar_nao_curtir' id='deixar_nao_curte_' style='display:".$nao_curte."'><span class='glyphicon glyphicon-thumbs-down'></span></button><br />";
+                echo "<button type='button' class='btn btn-default' id='nao_cur_' style='display:".$cur."'><span class='glyphicon glyphicon-thumbs-down'></span></button>";
+                echo "<button type='button' class='btn btn-info' id='deixar_nao_curte_' style='display:".$nao_curte."'><span class='glyphicon glyphicon-thumbs-down'></span></button><br />";
                 echo "<span id='deslike'>".$qtde_nao_curtidas."</span>";
               ?>
             </div>
@@ -68,8 +68,8 @@
                 }else{
                   $favorito = 'none';
                 }
-                echo "<button type='button' class='btn btn-default btn_favorito_' id='favorito_' style='display:".$favorito."'><span class='glyphicon glyphicon-star-empty'></span></button>";
-                echo "<button type='button' class='btn btn-warning btn_deixar_favorito_' id='deixar_favorito_' style='display:".$nao_favorito."'><span class='glyphicon glyphicon-star-empty'></span></button><br />";
+                echo "<button type='button' class='btn btn-default' id='favorito_' style='display:".$favorito."'><span class='glyphicon glyphicon-star-empty'></span></button>";
+                echo "<button type='button' class='btn btn-warning' id='deixar_favorito_' style='display:".$nao_favorito."'><span class='glyphicon glyphicon-star-empty'></span></button><br />";
                 echo "<span id='favorito'>".$qtde_favoritos."</span>";
               ?>
             </div>
@@ -89,8 +89,8 @@
                 }else{
                   $amei = 'none';
                 }
-                echo "<button type='button' class='btn btn-default btn_amei_' id='amei_' style='display:".$amei."'><span class='glyphicon glyphicon-heart-empty'></span></button>";
-                echo "<button type='button' class='btn btn-danger btn_deixar_amei_' id='deixar_amei_' style='display:".$nao_amei."'><span class='glyphicon glyphicon-heart-empty'></span></button>";
+                echo "<button type='button' class='btn btn-default' id='amei_' style='display:".$amei."'><span class='glyphicon glyphicon-heart-empty'></span></button>";
+                echo "<button type='button' class='btn btn-danger' id='deixar_amei_' style='display:".$nao_amei."'><span class='glyphicon glyphicon-heart-empty'></span></button>";
                 echo "<br />";
                 echo "<span id='teamo'>".$qtde_amei."</span>";
               ?>
@@ -133,7 +133,7 @@
             }
           ?>
           <hr />
-          <h4><span style="font-family: 'Shadows Into Light', cursive; color:#9400D3; font-size:40px;">Jogos</span></h4>
+          <h4 align="center"><span style="font-family: 'Shadows Into Light', cursive; color:#9400D3; font-size:40px;">Jogos</span></h4>
           <a href="jogo/index.php" target="_blank" rel="noopener"><span><img style="width:50px" src="jogo/imagens/velha.jpg"></span></a>
           <a href="jogo2/index.php" target="_blank" rel="noopener"><span><img style="width:30px" src="jogo2/imagens/balao_azul_grande.png"></span></a>
           <hr />
@@ -143,7 +143,7 @@
             $resultado_id = mysqli_query($conexao, $sql);
             if($resultado_id){
               $registro = mysqli_fetch_array($resultado_id, MYSQLI_ASSOC);
-              $id_usuario = isset($registro["id_usuario"]);
+              $id_usuario = $registro["id_usuario"];
               $sql = " SELECT u.usuario, u.email, i.nome FROM tb_usuarios AS u LEFT JOIN imagens AS i ON (u.id = i.id_usuario) WHERE id = $id_usuario ";
               $resultado_id = mysqli_query($conexao, $sql);
               if($resultado_id){
