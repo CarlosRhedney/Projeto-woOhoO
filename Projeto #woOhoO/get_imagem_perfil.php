@@ -1,3 +1,17 @@
+<script type="text/javascript">
+$(".btn_del_img_perfil").click(function(){
+	let id_imagem = $(this).data("id_imagem");
+	$.ajax({
+		url: "delete_imagem_perfil.php",
+		method: "post",
+		data: {delete_imagem_perfil: id_imagem},
+		success: function(data){
+			alert("Imagem Deletada!");
+			window.setTimeout(function(){location.reload();}, 1);
+		}
+	});
+});
+</script>
 <?php
 session_start();
 if(!isset($_SESSION["usuario"])){
@@ -25,6 +39,10 @@ if($resultado_id){
 		// com o nome dos usuarios que guarda as imagens deles
 		echo "<p class='list-group-item-text'><img src='img/img_perfil/".$usuario."/".$registro["nome"]."' class='img-rounded img-responsive' id='imgs2' data-toggle='modal' data-target='#modal' style='width:200px'/></p>";
 		echo "</a>";
+		echo "<p class='list-group-item-text pull-right' style='margin-top:-40px; margin-right:-10px'>";
+		echo "<button type='button' style='border:none; background:none' class='btn btn-default glyphicon glyphicon-trash btn_del_img_perfil' data-id_imagem='".$registro["id_imagem"]."'></button>";
+		echo "<div class='clearfix'></div>";
+		echo "</p>";
     }
 }
 ?>

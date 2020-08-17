@@ -228,7 +228,7 @@ if($resultado_id){
                 echo '</div>';
             }
 		echo '<hr />';
-		echo '<h4><span style="font-family: Shadows Into Light, cursive; color:#9400D3; font-size:40px;">Jogos</span></h4>';
+		echo '<h4 align="center"><span style="font-family: Shadows Into Light, cursive; color:#9400D3; font-size:40px;">Jogos</span></h4>';
 		echo '<a href="jogo/index.php" target="_blank" rel="noopener"><span><img style="width:50px" src="jogo/imagens/velha.jpg"></span></a>';
 		echo '<a href="jogo2/index.php" target="_blank" rel="noopener"><span><img style="width:30px" src="jogo2/imagens/balao_azul_grande.png"></span></a>';
 		echo '<hr />';
@@ -237,7 +237,7 @@ if($resultado_id){
 		$resultado_id = mysqli_query($conexao, $sql);
 		if($resultado_id){
 			$registro = mysqli_fetch_array($resultado_id, MYSQLI_ASSOC);
-			$id_usuario = $registro["id_usuario"];
+			$id_usuario = isset($registro["id_usuario"]) ? $registro["id_usuario"] : 0;
 			$sql = " SELECT u.usuario, u.email, i.nome FROM tb_usuarios AS u LEFT JOIN imagens AS i ON (u.id = i.id_usuario) WHERE id = $id_usuario ";
 			$resultado_id = mysqli_query($conexao, $sql);
 			if($resultado_id){

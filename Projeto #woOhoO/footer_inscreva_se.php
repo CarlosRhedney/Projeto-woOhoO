@@ -1,4 +1,4 @@
-<div class="footer" style="background:#000; margin-top:50px; height:140px;">
+<div class="footer" style="background:#000; margin-top:50px; height:141px;">
   <div class="container"  id="footer">
     <div class="row">
       <div style="display:inline-block;" class="col-xs-2">

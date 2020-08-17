@@ -143,7 +143,7 @@
             $resultado_id = mysqli_query($conexao, $sql);
             if($resultado_id){
               $registro = mysqli_fetch_array($resultado_id, MYSQLI_ASSOC);
-              $id_usuario = $registro["id_usuario"];
+              $id_usuario = isset($registro["id_usuario"]) ? $registro["id_usuario"] : 0;
               $sql = " SELECT u.usuario, u.email, i.nome FROM tb_usuarios AS u LEFT JOIN imagens AS i ON (u.id = i.id_usuario) WHERE id = $id_usuario ";
               $resultado_id = mysqli_query($conexao, $sql);
               if($resultado_id){
